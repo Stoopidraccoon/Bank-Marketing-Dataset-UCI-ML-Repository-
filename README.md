@@ -42,13 +42,13 @@ Two models were trained and compared:
 **Preprocessing**
 - Encoded categorical features using one-hot encoding
 
-- Dropped low-importance features based on Random Forest feature importance (<0.01 threshold)
+- Dropped low-importance features based on Random Forest feature importance
 
 - Handled class imbalance using class_weight='balanced'
 
 # Model Evaluation
 
-# === Random Forest Evaluation ===
+**=== Random Forest Evaluation ===**
 Accuracy: **82.84818629646216**
 
 **Confusion Matrix**
@@ -67,7 +67,7 @@ Accuracy: **82.84818629646216**
    macro avg       0.83      0.83      0.83      2233
 weighted avg       0.83      0.83      0.83      2233
 
-# === Logistic Regression Evaluation ===
+**=== Logistic Regression Evaluation ===**
 Accuracy: **79.44469323779668**
 
 F1 Score: **77.8153697438376**
